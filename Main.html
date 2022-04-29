@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Toc Toe</title>
+    <link rel="stylesheet" href="Main.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="main_header">
+        <h2>Tic Toc Toe</h2>
+      </div>
+      <div id="mode_toggle">
+        <button class="btn" id="multi_btn" onclick="modeToggleHandler(1)">
+          Multiplayer Mode
+        </button>
+        <button class="btn" id="single_btn" onclick="modeToggleHandler(2)">
+          Singleplayer Mode
+        </button>
+      </div>
+      <div id="play_container"></div>
+    </div>
+    <script src="Main.js"></script>
+  </body>
+</html>
